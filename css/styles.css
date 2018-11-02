@@ -59,6 +59,9 @@ footer {
             "article article article"
             "footer footer footer"
     }  
+    header,article, main, footer,nav,section {
+        background: rgb(22, 91, 218);
+    }
 
     
 }
