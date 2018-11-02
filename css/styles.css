@@ -23,19 +23,23 @@ header {
 }
 nav {
     grid-area: nav;
+    background: rgb(206, 52, 52);
+
 }
 article {
     grid-area: article;
+    background: rgb(206, 52, 52);
+
 }
 section {
-    background: #3df;
+    background: rgb(206, 52, 52);    
     grid-area: section
 }
 aside {
     background: #123;
 }
 footer {
-    background: rgb(151, 245, 27);
+    background: rgb(206, 52, 52);    
     grid-area: footer;
 }
 @media(min-width: 700px) {
@@ -62,4 +66,8 @@ footer {
     .container{
         max-width: 900px;
     }
+    header,article, main, footer,nav,section {
+        background: rgb(22, 218, 71);
+    }
+    
 }
